@@ -1,0 +1,152 @@
+
+*{
+    padding: 0;
+    margin: 2px;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+body {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+.left {
+    
+    padding: 3em 0em 3em 0em;
+    flex: 1 1 100;
+}
+
+.right {
+    background:#d396ff;
+    padding: 3em 0em 3em 0em;
+    flex: 1 1 100;
+    text-align: center;
+}
+main {
+    background: #d396ff;
+    padding: 3em 0em 3em 0em;
+
+
+}
+.main {
+    display: flex;
+    flex:1;
+}
+
+
+nav{
+    display:flex;
+    align-items: center;
+    padding: 2em 0em 2em 0em;
+    justify-content: space-between ;
+    
+}
+nav ul li {
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 20px;
+    
+    
+
+}
+
+nav ul li a {
+    color:grey;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+color: black;
+cursor: pointer;
+transition: 3s;
+}
+
+p {
+    color:grey;
+}
+
+.btn {
+    border: none;
+    background: #5200cc;
+    padding:12px 30px;
+    border-radius: 10px;
+    color:azure;
+    height:40px;
+    font-size: 15px;
+    transition: .4s;
+    
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+
+
+.secondary-btn{
+    border: none;
+    color:rgba(79,70,229);
+    background: #eef2ff;
+    padding: 5px;
+    border-radius: 5px;
+    color:#5200cc;
+    text-decoration: none;
+    height:1em;
+    transition: .4s;
+    
+
+
+}
+p {
+    padding:1.2em;
+}
+.bold {
+    font-weight:bolder;;
+    color: black;
+}
+.uppercase {
+    text-transform: uppercase;
+    
+}
+
+.tagline {
+    display:block;
+    font-size: 0.8em;
+}
+
+.dayNumber { 
+    color: #5200cc;
+    font-size: 2em;
+
+}
+.largeFont {
+    font-size: 2em;
+}
+
+
+
+.container {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.box {
+    width:40%;
+    background-color: #d396ff;
+    text-align: left;
+    padding: 20px;
+}
+
+@media all and (max-width: 550px) {
+    .main {
+        flex-direction: column;
+    }
+    main {
+        padding: 5em 0 5em 0;
+    }
+    
+}
+
+
